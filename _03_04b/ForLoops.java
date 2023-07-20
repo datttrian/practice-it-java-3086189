@@ -1,4 +1,4 @@
-package _03_04;
+package _03_04b;
 
 public class ForLoops {
 
