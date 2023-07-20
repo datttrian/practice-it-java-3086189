@@ -1,0 +1,19 @@
+Extensions installed on Codespaces:
+aslamanver.vsc-export
+dbaeumer.vscode-eslint
+GitHub.codespaces
+GitHub.github-vscode-theme
+GitHub.vscode-pull-request-github
+oderwat.indent-rainbow
+redhat.java
+sohibe.java-generate-setters-getters
+streetsidesoftware.code-spell-checker
+TabNine.tabnine-vscode
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscode-icons-team.vscode-icons
