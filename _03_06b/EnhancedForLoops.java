@@ -1,4 +1,4 @@
-package _03_06;
+package _03_06b;
 
 import java.util.Arrays;
 import java.util.List;
