@@ -10,10 +10,31 @@ public class Ticket {
   private double price;
   private boolean isReturn;
 
-  // Add three public methods to set the value of each field, called
-  // setDestination, setPrice and setIsReturn.
+  public String getDestination() {
+    return this.destination;
+  }
 
-  // Add three public methods to get the value of each field, called
-  // getDestination, getPrice and getIsReturn.
+  public void setDestination(String destination) {
+    this.destination = destination;
+  }
 
+  public double getPrice() {
+    return this.price;
+  }
+
+  public void setPrice(double price) {
+    this.price = price;
+  }
+
+  public boolean isIsReturn() {
+    return this.isReturn;
+  }
+
+  public boolean getIsReturn() {
+    return this.isReturn;
+  }
+
+  public void setIsReturn(boolean isReturn) {
+    this.isReturn = isReturn;
+  }
 }
