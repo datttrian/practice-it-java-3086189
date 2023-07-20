@@ -1,4 +1,4 @@
-package _02_02;
+package _02_02b;
 
 public class Ticket {
 }

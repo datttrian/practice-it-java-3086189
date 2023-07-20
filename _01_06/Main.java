@@ -8,5 +8,7 @@ public class Main {
 
     System.out.println(employeeOne.salary);
     System.out.println(employeeTwo.salary);
+
+    
   }
 }

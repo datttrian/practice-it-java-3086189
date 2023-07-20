@@ -16,4 +16,5 @@ public class Employee {
   void raiseSalary() {
     this.salary = this.salary * 1.2;
   }
+  
 }
