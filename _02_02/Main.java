@@ -11,5 +11,11 @@ public class Main {
     System.out.println(myFavoriteMapleTree.getHeightFt());
     System.out.println(myFavoriteMapleTree.getTrunkDiameterInches());
 
+    // myFavoriteMapleTree.setHeightFt(180);
+    myFavoriteMapleTree.grow();
+    System.out.println(myFavoriteMapleTree.getHeightFt());
+
+    myFavoriteMapleTree.setHeightFt(50);
+    System.out.println(myFavoriteMapleTree.getHeightFt());
   }
 }
