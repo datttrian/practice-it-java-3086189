@@ -27,6 +27,7 @@ public class Main {
     listy.add(1);
     listy.add(2);
     addRandomNumber(listy);
-    System.out.println(listy);
+    System.out.println(listy
+    );
   }
 }
