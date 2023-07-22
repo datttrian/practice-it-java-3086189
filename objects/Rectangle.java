@@ -1,29 +1,13 @@
 package objects;
 
 public class Rectangle {
-  private double length;
-  private double width;
 
-  public Rectangle() {
-    length = 0;
-    width = 0;
-  }
-
-  public Rectangle(double length, double width) {
-    setLength(length);
-    setWidth(width);
-  }
-
-  public double calculatePerimeter() {
-    return (length + width) * 2;
-  }
-
-  public double calculateArea() {
-    return length * width;
-  }
+  protected double length;
+  protected double width;
+  protected double sides = 4;
 
   public double getLength() {
-    return this.length;
+    return length;
   }
 
   public void setLength(double length) {
@@ -31,11 +15,26 @@ public class Rectangle {
   }
 
   public double getWidth() {
-    return this.width;
+    return width;
   }
 
   public void setWidth(double width) {
     this.width = width;
   }
 
+  public double getSides() {
+    return sides;
+  }
+
+  public void setSides(double sides) {
+    this.sides = sides;
+  }
+
+  public double calculatePerimeter() {
+    return (2 * length) + (2 * width);
+  }
+
+  public void print() {
+    System.out.println("I am a rectangle");
+  }
 }
