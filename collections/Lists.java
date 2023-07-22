@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Lists {
   public static void main(String[] args) {
-    List fruits = new ArrayList();
+    List<String> fruits = new ArrayList<String>();
     fruits.add("apple");
     fruits.add("lemon");
     fruits.add("banana");
@@ -23,5 +23,9 @@ public class Lists {
 
     List moreFruit = List.of("cherry", "cranberry", "plum");
     System.out.println(moreFruit);
+
+    for (String fruit : fruits) {
+      System.out.println(fruit);
+    }
   }
 }
