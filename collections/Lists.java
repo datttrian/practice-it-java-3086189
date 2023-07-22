@@ -27,5 +27,14 @@ public class Lists {
     for (String fruit : fruits) {
       System.out.println(fruit);
     }
+    System.out.println("#################");
+    fruits.forEach(f -> System.out.println(f));
+    System.out.println("#################");
+    fruits.forEach(System.out::println);
+    System.out.println("#################");
+    fruits.forEach(f -> {
+      f = "fruits: " + f;
+      System.out.println(f);
+    });
   }
 }

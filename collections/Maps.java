@@ -22,5 +22,9 @@ public class Maps {
     System.out.println(fruitCalories.containsValue(20));
 
     System.out.println(fruitCalories.entrySet());
+
+    fruitCalories.forEach((k, v) -> {
+      System.out.println(k + ": " + v);
+    });
   }
 }
