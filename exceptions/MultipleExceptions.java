@@ -8,8 +8,9 @@ import java.util.Scanner;
 public class MultipleExceptions {
   public static void main(String[] args) {
     File file = new File("files/numbers.txt");
+    Scanner fileReader = null;
     try {
-      Scanner fileReader = new Scanner(file);
+      fileReader = new Scanner(file);
       while (fileReader.hasNext()) {
         System.out.println(fileReader.nextDouble());
       }
@@ -20,6 +21,8 @@ public class MultipleExceptions {
       // } catch (Exception e) {
       // e.printStackTrace();
       // }
+    } finally {
+      fileReader.close();
     }
   }
 }
